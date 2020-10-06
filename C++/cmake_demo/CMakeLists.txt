@@ -1,18 +1,3 @@
-# cmake学习与实践
-
-标签（空格分隔）： 工程 cpp cmake
-
----
-## 安装cmake
-
-在Mac  os下直接可以使用`brew install cmake `进行安装。
-
-
-## demo
-notice:
-*  cmake不区分大小写
-
-```
 #项目要求的最低cmake版本
 cmake_minimum_required(VERSION 3.10)
 
@@ -95,10 +80,3 @@ include(InstallRequiredSystemLibraries)
 set(CPACK_PACKAGE_VERSION_MAJOR "${Tutorial_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${Tutorial_VERSION_MINOR}")
 include(CPack)
-```
-
-
-
-## Reference
-* [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-* [CMake 入门实战](https://www.hahack.com/codes/cmake/#)
